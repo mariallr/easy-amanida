@@ -1,0 +1,25 @@
+<p><b>Pas 1.</b> L'usuari ha de carregar la base de dades pel meta-anàlisis en el menú de <b>Carregar dades</b>. Unes dades d'exemple estan disponibles i qualsevol altre base de dades pot pujar-se a través d'un fitxer extern en format <i>*.csv</i> separat per ';'.
+<p><b>Pas 2.</b> Un cop pujades les dades, l'usuari ha de triar entre una anàlisis quantitatiu o qualitatiu.</p>
+<p><b>Pas 3.</b> Seleccionar les variables corresponents en ordre depenent de l'anàlisis triat.</p>
+<p>Per l'Anàlisis Quantitatiu, l'usuari ha de seleccionar les cinc variables en el següent ordre:</p>
+<ul>
+  <li>Variable 1: Nom Compost. </li>
+  <li>Variable 2: P-Valor.</li>
+  <li>Variable 3: Canvis en la concentració/intensitat.</li>
+  <li>Variable 4: N total.</li>
+  <li>Variable 5: Referències.</li>
+</ul>
+<p>Per l'Anàlisis Qualitatiu, l'usuari ha de seleccionar tres variables en el següent ordre:</p>
+<ul>
+  <li>Variable 1: Nom Compost. </li>
+  <li>Variable 2: Comportament.</li>
+  <li>Variable 3: Referències.</li>
+</ul>
+<p><b>Pas 4.</b> Un cop seleccionades les variables adequades, el botó de Calcular apareixerà per a començar amb les anàlisis. L'usuari ha de clicar-lo per obtenir els resultats que es visualitzaran automàticament en les pestanyes corresponents:</p>
+<ul>
+  <li><b>Anàlisis Quantitatiu</b> mostra els resultats de l'aplicació del paquet amanida, un meta-anàlisis amb pesos basat en resultats generals. Combina p-valors mitjançant un mètode de Fisher amb pesos i els canvis en la concentració/intensitat mitjançant una mitjana ponderada, on el pes és la mida de l'estudi (n). Els resultats es presenten en una taula i gràficament amb una gràfica Volcano.</li>
+  <li><b>Anàlisis Qualitatiu</b> mostra l'anàlisis exploratori de les dades. La gràfica de vots és el resultat de l'anàlisis del conteig de vots, els vots estan recollits de la següent manera: +1 per a l'alça, -1 per a la baixa i 0 per no canvi. El gràfic exploratori és una variació de la gràfica de vots on els compostos visualitzats estan dividits per tendència (a l'alça/a la baixa) per trobar discrepàncies en el resultat.</li>
+  <li><b>Informe</b> conté la descàrrega de l'informe de l'anàlisis especificat.</li>
+</ul>
+<p>Si l'anàlisis és quantitatiu, tant els resultats quantitatius com qualitatius seran mostrats. Per l'anàlisis qualitatiu, només resultats qualitatius seran mostrats.</p>
+<p>Totes les anàlisis s'han fet amb el paquet de R <i>Amanida</i>. Més informació d'aquestes anàlisis es pot trobar a: <a href='https://cran.r-project.org/web/packages/amanida/vignettes/amanida_UserGuide.html'> Amanida Guia d'Usuari </a>.</p>

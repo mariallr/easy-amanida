@@ -1,0 +1,54 @@
+﻿var;English;Castellano;Català
+load_data;Load data;Cargar datos;Carregar dades
+upload_data;Upload data;Subir datos;Pujar dades
+no_data;No data uploaded yet;No hay datos subidos;No hi ha dades pujades
+data_uploaded;Data uploaded;Datos subidos;Dades pujades
+upload_any;Uplad any data to proceed;Subir datos para continuar;Pujar dades per continuar
+less_5var;The dataset has less than 5 variables;La base de datos tiene menos de 5 variables;La base de dades té menys de 5 variables
+cant_read;The dataset can't be read correctly;La base de datos no se puede leer correctamente;La base de dades no es pot llegir correctament
+example;Example;Ejemplo;Exemple
+select_mode;Select mode for analysis;Selecciona el modo de análisis;Selecciona el mode de l'anàlisis
+select_needed;Select the following five variables needed;Selecciona las siguientes cinco variables que se necesitan;Selecciona les següents cinc variables que es necessiten
+compound_name;Compound Name;Nombre Compuesto;Nom Compost
+p_value;P-Value;P-Valor;P-Valor
+fold_change;Fold-change;Cambios en la concentración/intensidad;Canvis en la concentració/intensitat
+references;References;Referencias;Referències
+behaviour;Behaviour;Comportamiento;Comportament
+select_proceed;Select analysis mode to proceed;Selecciona el modo de análisis para seguir;Selecciona el mode d'anàlisis per continuar
+calculate;Calculate;Calcular;Calcular
+you_have;You have to complete the;Tiene que completar las;Ha de completar les
+columns_needed;columns needed for the analysis;columnas necesarias para el análisis;columnes necessàries per l'anàlisis
+home;Home;Inicio;Inici
+data_preview;Data preview;Visualización datos;Visualització dades
+quant_ana;Quantitative Analysis;Análisis Cuantitativo;Anàlisis Quantitatiu
+qual_ana;Qualitative Analysis;Análisis Cualitativo;Anàlisis Qualitatiu
+report;Report;Informe;Informe
+help;Help;Ayuda;Ajuda
+how_to;How to use the app;Como usar la app;Com utilitzar l'app
+about;About;Información;Informació
+success_message;The dataset is uploaded correctly. Select mode and columns for analysis.;La base de datos se ha subido correctamente. Selecciona modo y columnas para el análisis.;La base de dades s'ha pujat correctament. Selecciona mode i columnes per l'anàlisis.
+dataset_contains;The dataset contains;La base de datos contiene;La base de dades conté
+missing_message;rows that contains some empty/missing value and will be skipped. These rows are painted in yellow in the Data Preview tab.;filas que contienen algun valor vacío y serán omitidas. Estas filas estan pintadas de color amarillo en la pestaña de Visualización datos.;files que contenen algun valor buit i seran omitides. Aquestes files estan pintades de color groc en la pestanya de Visualització dades.
+cutoff_pvalue;Cutoff for p-values;Corte p-valor;Tall p-valor
+cutoff_fold_change;Cutoff for fold-change;Corte cambios en la concentración/intensidad;Tall canvis concentració/intensitat
+reset;Reset;Resetea;Reseteja
+show_label;Show label names;Muestra nombres etiqueta;Mostrar noms etiqueta
+table_results;Results table;Tabla resultados ;Taula resultats
+table_results_id;Results table IDs;Tabla resultados IDs;Taula resultats IDs
+downloading;Downloading;Descargando;Descarregant
+download;Download;Descargar;Descarregar
+vote_plot;Vote Plot;Gráfica Votos;Gràfica Vots
+volcano_plot;Volcano Plot;Gráfica Volcano;Gràfica Volcano
+counts_cutoff;Counts cut-off;Corte votos;Tall vots
+explore_plot;Explore Plot;Gráfico Exploratorio;Gràfic Exploratori
+select_param;Select the parameters;Selecciona los parámetros;Selecciona els paràmetres
+click_down;Click on dowload to get the report;Clica descargar para obtener el informe;Clica descarregar per a obtenir l'informe
+down_report;Download the report;Descarga el informe;Descarrega el informe
+downloading_report;Downloading report. It may last a few seconds…;Descargando el informe. Puede tardar unos segundos…;Descarregant l'informe. Pot tardar uns segons…
+quan;Quantitative;Cuantitativo;Quantitatiu
+qual;Qualitative;Cualitativo;Qualitatiu
+quan_qual;Quantitative + Qualitative;Cuantitativo + Cualitativo;Quantitatiu + Qualitatiu
+calc_message;Calculation in progress;Calculando el análisis;Calculant les anàlisis
+patience;The process may take some seconds…;El proceso puede tardar unos segundos…;El procés pot tardar uns segons…
+show_id;Include compounds IDs;Incluir ID de los compuestos;Incloure el ID dels compostos
+warning_show_id;Selecting this option may slow down calculation;Seleccionar esta opción puede relentir los cálculos;Seleccionar aquesta opció pot ralentir el càlcul

@@ -1,0 +1,25 @@
+<p><b>Step 1.</b> The user must load the data set for the meta-analysis in the <b>Load data</b> menu. An example data set is available, and any other user’s data set can be uploaded from an external file in <i>*.csv</i> format separated by ';'.
+                          <p><b>Step 2.</b> When uploaded the data, the user must choose between a quantitative or a qualitative analysis.
+                          <p><b>Step 3.</b> Choose corresponding variables in order depending on the analysis chosen.
+                          <p> For Quantitative Analysis, the user’s must select five variables in the following mandatory order:</p>
+                          <ul>
+                          <li>Variable 1: Compound Name. </li>
+                          <li>Variable 2: P-Value.</li>
+                          <li>Variable 3: Fold-change.</li>
+                          <li>Variable 4: N total.</li>
+                          <li>Variable 5: References.</li>
+                          </ul>
+                          <p> For Qualitative Analysis, the user’s must select three variables in the following mandatory order:</p>
+                          <ul>
+                          <li>Variable 1: Compound Name. </li>
+                          <li>Variable 2: Behaviour.</li>
+                          <li>Variable 3: References.</li>
+                          </ul>
+                          <p><b>Step 4.</b> Once the variables are selected accordingly, the Calculate button will be displayed to begin with the analysis. The user must click on it to obtain the results that will be automatically displayed in the corresponding tabs:</p>
+                          <ul>
+                          <li><b>Quantitative Analysis</b> shows the results of applying amanida, a weighted meta-analysis based on overall results. It combines p-values by a weighted Fisher method and fold-change by weighted average, where the weight factor is the study size (n). Results are disclosed in a table and graphically through a volcano plot.</li>
+                          <li><b>Qualitative Analysis</b> shows the exploratory analysis of data. Vote plot is the results of a vote-counting analysis, votes are computed as followed +1 for up-regulation, -1 for down-regulation, and 0 for no change. The explore plot, is a variation of the vote-counting plot where compounds plotted are divided by trend (up-regulated/down-regulated) to find discrepancies in results. </li>
+                          <li><b>Report</b> will have available the downloading of the report of the analysis specified.</li>
+                          </ul>
+                          <p>If the analysis mode is quantitative, both quantitative and qualitative results will be displayed. For qualitative analysis, only qualitative results will be showed. </p>
+                          <p> All analysis are done with R package <i>Amanida</i>. More information on these analysis can be found in the following vignette: <a href='https://cran.r-project.org/web/packages/amanida/vignettes/amanida_UserGuide.html'> Amanida User Guide </a>.</p>

@@ -1,0 +1,25 @@
+<p><b>Paso 1.</b> El usuario debe cargar la base de datos para el meta-análisis en el menú de <b>Cargar datos </b>. Unos datos de ejemplo están disponibles y cualquier otra base de datos puede subirse de un fichero externo en formato <i>*.csv</i> separado por ';'.
+<p> <b>Paso 2.</b> Una vez subidos los datos, el usuario debe escoger entre un análisis cuantitativo o cualitativo.</p>
+<p><b>Paso 3.</b> Seleccionar las variables correspondientes en orden dependiendo del análisis escogido.</p>
+<p> Para el Análisis Cuantitativo, el usuario debe seleccionar las cinco variables en el siguiente orden:</p>
+<ul>
+  <li>Variable 1: Nombre Compuesto. </li>
+  <li>Variable 2: P-Valor.</li>
+  <li>Variable 3: Cambios en la concentración/intensidad.</li>
+  <li>Variable 4: N total.</li>
+  <li>Variable 5: Referencias.</li>
+</ul>
+<p>Para el Análisis Cualitativo, el usuario debe seleccionar las tres variables en el siguiente orden:</p>
+<ul>
+  <li>Variable 1: Nombre Compuesto. </li>
+  <li>Variable 2: Comportamiento.</li>
+  <li>Variable 3: Referencias.</li>
+</ul>
+<p><b>Paso 4.</b> Una vez seleccionadas las variables adecuadas, el botón de Calcular aparecerá para empezar con el análisis. El usuario debe clicarlo para obtener los resultados que se visualizarán automáticamente en las pestañas correspondientes:</p>
+<ul>
+  <li><b>Análisis Cuantitativo</b> muestra els resultados de la aplicación del paquete amanida, un meta-análisis con pesos basado en resultados generales. Combina p-valores mediante un método de Fisher con pesos y los cambios en la concentración/intensidad mediante una media ponderada, donde el peso es el tamaño de estudio (n). Los resultados se presentan en una tabla y gráficamente con una gráfica Volcano.</li>
+  <li><b>Análisis Cualitativo</b> muestra el análisis exploratorio de los datos. La gráfica de votos es el resultado del análisis de conteo de votos, los votos están recogidos de la siguiente manera: +1 para los regulados al alza, -1 para los regulados a la baja y 0 para los que no cambian. El gráfico exploratorio es una variación de la gráfica de votos donde los compuestos visualizados estan dividos por tendencia (a la alza/a la baja) para encontrar discrepancias en el resultado. </li>
+  <li><b>Informe</b> contiene la descarga del informe del análisis especificado.</li>
+</ul>
+<p>Si el análisis es cuantitativo, tanto resultados cuantitativos como cualitativos seran mostrados. Para el análiais cualitativo, solo resultados cualitativos serán mostrados.</p>
+<p>Todos los análisis se han hecho con el paquete de R <i>Amanida</i>. Más información de estos análisis se puede encontrar en: <a href='https://cran.r-project.org/web/packages/amanida/vignettes/amanida_UserGuide.html'> Amanida Guía de Usuario </a>.</p>
