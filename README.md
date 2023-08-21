@@ -4,7 +4,7 @@ Easy-Amanida is a web-based app, developed with Shiny, that implements the R pac
 
 [Link to Shiny Easy-Amanida](https://ubidi.shinyapps.io/easy-amanida/)
 
-![easyamanida_nomdins](https://github.com/mariallr/easy-amanida/assets/64139574/73fb076c-f02a-45f3-9c81-f7d19c82cff7)
+![easyamanida_nomdins](WWW/easyamanida_nomdins.png)
 
 ## Description
 
