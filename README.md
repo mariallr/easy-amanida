@@ -2,7 +2,7 @@
 
 Easy-Amanida is a web-based app, developed with Shiny, that implements the R package Amanida. 
 
-[Link to Shiny Easy-Amanida](https://ubidi.shinyapps.io/easy-amanida/)
+[Link to Shiny Easy-Amanida](http://brui.shinyapps.io/easy-amanida)
 
 ![easyamanida_nomdins](WWW/easyamanida_nomdins.png)
 
