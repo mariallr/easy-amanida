@@ -1,5 +1,7 @@
 # easy-amanida
 
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/) 
+
 Easy-Amanida is a web-based app, developed with Shiny, that implements the R package Amanida. 
 
 [Link to Shiny Easy-Amanida](http://brui.shinyapps.io/easy-amanida)
